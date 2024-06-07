@@ -1,0 +1,81 @@
+body{
+  background-image:url('https://upload.wikimedia.org/wikipedia/commons/9/9a/La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_%28con_fondo_negro%29.jpg');
+  background-size: 100%;
+}
+
+h1{
+  text-align: center;
+  color: rgb(200,0,0);
+  font-family: Times New Roman, bold;
+  background-color: rgba(0,0,0,90%);
+  font-size: 30pt;
+  margin: 2em auto;
+  margin-bottom: 0.5em;
+}
+
+form{
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.description{
+  text-align: center;
+  font-style: italic;
+  color:#ffffff;
+  font-size: 12pt;
+  background-color: rgba(0,0,0,50%);
+  margin-bottom: 20px;
+}
+
+legend{
+  font-style: italic;
+  color: rgb(200,0,0);
+  font-size: 15pt;
+  background-color: rgba(0,0,0,90%);
+}
+
+p, .form-group{
+  font-family: 'Times New Roman', serif;
+  font-size: 13pt;
+  color: #ffffff;
+}
+
+input[type='text'],input[type='email'],input[type='number'], textarea, select{
+  font-family: 'Times New Roman', serif;
+  font-size: 12pt;
+  color: rgb(200,0,0);
+}
+
+
+input[type='radio']:checked{
+  font-family: 'Times New Roman', serif;
+  font-size: 11pt;
+  color: rgb(200,0,0);
+}
+
+input, select{
+  margin-bottom: 15px;
+}
+
+fieldset{
+  border: none;
+  background-color: rgba(0,0,0,50%)
+}
+
+p{
+  margin-top:0;
+  margin-bottom: 10px;
+}
+
+input[type='submit']{
+  display: block;
+  width: 50%;
+  margin: 2em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Arial, serif;
+  background-color: rgb(200,0,0);
+  color: #ffffff;
+  border-color:  rgb(200,0,0);
+  min-width: 200px;
+}
